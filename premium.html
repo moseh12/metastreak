@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://foresignal.com/css/project.min.css?v=02331413" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<title>Premium &mdash; Metastreak signal</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/green/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/green/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/green/favicon-16x16.png">
+	<link rel="manifest" href="/img/favicon/green/site.webmanifest">
+	<link rel="mask-icon" href="/img/favicon/green/safari-pinned-tab.svg" color="#006400">
+	<link rel="shortcut icon" href="/img/favicon/green/favicon.ico">
+	<link rel="preconnect" href="https://www.google.com">
+	<link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+	<meta name="msapplication-TileColor" content="#006400">
+	<meta name="msapplication-config" content="/img/favicon/green/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="description" content="" />
+	
+	<meta name="keywords" Content="Free Forex Signals, free trading signals">
+	<style>
+		/* Add custom styles here */
+	
+		/* Navbar */
+		.nav {
+			background-color: #fff;
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+			padding: 10px 20px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			position: relative; 
+		}
+	
+		.nav .logo {
+			font-size: 24px;
+			font-weight: bold;
+			letter-spacing: 1px;
+			color: #333; /* Change logo color */
+			text-decoration: none;
+		}
+	
+		.nav .logo span {
+			color: green;
+		}
+	
+		.nav .navbar-icon {
+			font-size: 24px;
+			cursor: pointer;
+			color: #333; /* Change menu icon color */
+		}
+	
+		.nav .navbar-icon-user {
+			font-size: 20px;
+			cursor: pointer;
+			color: #333; /* Change user icon color */
+		}
+	
+		.nav .premium-button {
+			background-color: #5cb85c;
+			color: #fff;
+			padding: 4px 10px;
+			border-radius: 5px;
+			text-decoration: none;
+		}
+	
+		.nav .dropdown-menu {
+			display: none;
+			flex-direction: column;
+			position: absolute;
+			top: 50px;
+			right: 20px;
+			background-color: #fff;
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+			z-index: 1;
+		}
+	
+		.nav .dropdown-menu.show {
+			display: flex;
+		}
+	
+		.nav .dropdown-menu a {
+			padding: 10px 20px;
+			text-decoration: none;
+			color: #333;
+		}
+	
+		.nav .dropdown-menu a:hover {
+			background-color: #f0f2f5;
+		}
+	
+		/* Content */
+		.container {
+			padding: 20px;
+		}
+	
+		h1 {
+			font-size: 28px;
+			margin-bottom: 20px;
+			color: #333; /* Change heading color */
+		}
+	
+		.card {
+			background-color: #fff;
+			border-radius: 10px;
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+	
+		.card-group {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 20px;
+			justify-content: center;
+		}
+	
+		.card-header {
+			font-size: 24px;
+			font-weight: bold;
+			color: #28a745; /* Change card header color */
+		}
+	
+		.card-body {
+			text-align: center;
+		}
+	
+		.card-footer {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+	
+		.btn-primary {
+			background-color: #28a745; /* Change button background color */
+			border-color: #28a745; /* Change button border color */
+		}
+	
+		.btn-primary:hover {
+			background-color: #218838; /* Change button hover background color */
+			border-color: #1e7e34; /* Change button hover border color */
+		}
+	
+		.btn-outline-success {
+			color: #28a745; /* Change outline button text color */
+			border-color: #28a745; /* Change outline button border color */
+		}
+	
+		.btn-outline-success:hover {
+			color: #fff; /* Change outline button hover text color */
+			background-color: #28a745; /* Change outline button hover background color */
+			border-color: #28a745; /* Change outline button hover border color */
+		}
+	
+		@media screen and (max-width: 768px) {
+			.nav .navbar-icon {
+				display: block;
+				margin-left: auto; /* Push to the right */
+				margin-top: 10px; /* Add some space between logo and menu icon */
+			}
+			
+			.nav .dropdown-menu {
+				position: static;
+				display: none;
+				width: 100%; /* Full width */
+				box-shadow: none; /* Remove shadow */
+				margin-top: 0; /* Remove top margin */
+			}
+			.nav .dropdown-menu.show {
+				display: flex; /* Display as flexbox */
+				flex-direction: column; /* Align items vertically */
+				align-items: center; /* Center items */
+			}
+			.nav .dropdown-menu a {
+				width: 100%; /* Full width for menu items */
+				text-align: center; /* Center text */
+			}
+	
+			/* Hide logo on small devices */
+			.nav .logo {
+				display: none;
+			}
+		}
+	</style>
+	
+
+
+
+
+
+	
+</head>
+
+<body class="skin-green">
+	 <!-- Header -->
+	 <div class="nav">
+		
+			<a href="#" class="logo">
+				<span>M</span>
+				<span>E</span>
+				<span>T</span>
+				<span>A</span>
+				<span>S</span>
+				<span>T</span>
+				<span>R</span>
+				<span>E</span>
+				<span>A</span>
+				<span>K</span>
+			</a>
+			<i id="dropdown-toggle" class="bx bx-book navbar-icon"></i>
+			<!-- Person icon -->
+			<a href="login.php" class="navbar-icon"><i class="bx bx-user"></i></a>
+			<!-- Premium button -->
+			<a href="premium.html" class="premium-button">Premium</a>
+			<!-- Dropdown menu -->
+			<div id="dropdown-menu" class="dropdown-menu">
+				<a href="#">Item 1</a>
+				<a href="#">Item 2</a>
+				<a href="#">Item 3</a>
+			</div>
+		
+		
+	 </div>
+	
+			
+	<div class="container">
+		<script src="https://btcpay.elerone.com/modal/btcpay.js"></script>
+<script>
+    function bitbuy(n) {
+		window.location.href="login.php";
+    }
+</script>
+
+<h1>Get the most out of the signals</h1>
+
+<div class="row mt-1">
+	<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+
+		<div class="mb-3">
+					</div>
+
+		<div class="p-3 mx-auto">
+			<ul class="fs-5">
+				<li>Immediate access to signals on the site</li>
+				<li>No Ads</li>
+				<li>Real-time e-mail notifications &mdash; You'll be notified by email when a new signal is issued</li>
+				<li>
+					Telegram notifications:
+					<a class="btn text-white" style="background-color: #0088cc;" href="https://t.me/metastreakfxtrades">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+</svg>						Telegram channel					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="card-group mb-3 text-center">
+			<div class="card me-3 rounded-3 border shadow-sm p-0">
+				<div class="card-header fs-1 text-success">
+					%
+					<div class="fs-6 text-muted">
+						* Till 18 May					</div>
+				</div>
+				<div class="card-body">
+					
+					<div class="fs-1 mb-3">
+						$29
+					</div>
+					<div class="fs-4 mb-3">
+						1 month					</div>
+				</div>
+				<div class="card-footer p-3 bg-transparent border-0">
+					<a class="btn btn-primary btn-success w-100" href="buy.php">Buy</a>
+					<a class="btn btn-outline-success w-100 mt-3" onclick="bitbuy(1); return false;" role="button">
+						Buy with 						<span class="account-upgrade-currency"><svg xmlns="http://www.w3.org/2000/svg" height="64" width="64" viewBox="0 0 64 64">
+<g transform="translate(0.00630876,-0.00301984)">
+<path fill="#f7931a" d="m63.033,39.744c-4.274,17.143-21.637,27.576-38.782,23.301-17.138-4.274-27.571-21.638-23.295-38.78,4.272-17.145,21.635-27.579,38.775-23.305,17.144,4.274,27.576,21.64,23.302,38.784z"/>
+<path fill="#FFF" d="m46.103,27.444c0.637-4.258-2.605-6.547-7.038-8.074l1.438-5.768-3.511-0.875-1.4,5.616c-0.923-0.23-1.871-0.447-2.813-0.662l1.41-5.653-3.509-0.875-1.439,5.766c-0.764-0.174-1.514-0.346-2.242-0.527l0.004-0.018-4.842-1.209-0.934,3.75s2.605,0.597,2.55,0.634c1.422,0.355,1.679,1.296,1.636,2.042l-1.638,6.571c0.098,0.025,0.225,0.061,0.365,0.117-0.117-0.029-0.242-0.061-0.371-0.092l-2.296,9.205c-0.174,0.432-0.615,1.08-1.609,0.834,0.035,0.051-2.552-0.637-2.552-0.637l-1.743,4.019,4.569,1.139c0.85,0.213,1.683,0.436,2.503,0.646l-1.453,5.834,3.507,0.875,1.439-5.772c0.958,0.26,1.888,0.5,2.798,0.726l-1.434,5.745,3.511,0.875,1.453-5.823c5.987,1.133,10.489,0.676,12.384-4.739,1.527-4.36-0.076-6.875-3.226-8.515,2.294-0.529,4.022-2.038,4.483-5.155zm-8.022,11.249c-1.085,4.36-8.426,2.003-10.806,1.412l1.928-7.729c2.38,0.594,10.012,1.77,8.878,6.317zm1.086-11.312c-0.99,3.966-7.1,1.951-9.082,1.457l1.748-7.01c1.982,0.494,8.365,1.416,7.334,5.553z"/>
+</g>
+</svg>
+</span>
+					</a>
+					<a class="btn btn-primary btn-success w-100" href="buy.php">
+						<i class="fas fa-money-check-alt"></i> Buy With Skrill
+					</a>
+	                <a class="btn btn-primary btn-success w-100" href="buy.php">
+						<i class="fas fa-netteller"></i> Buy with Neteller
+					</a>
+					<a class="btn btn-primary btn-success w-100" href="buy.php">
+						<i class="fab fa-paypal"></i> Buy with PayPal
+					</a>
+				</div>
+			</div>
+			<div class="card rounded-3 border shadow-sm p-0">
+				<div class="card-header fs-1 text-success">
+					%
+					<div class="fs-6 text-muted">
+						* Till 18 May					</div>
+				</div>
+				<div class="card-body">
+					
+					<div class="fs-1 mb-3">
+						$59
+					</div>
+					<div class="fs-4 mb-3">
+						3 months					</div>
+				</div>
+				<div class="card-footer p-3 bg-transparent border-0">
+					<a class="btn btn-primary btn-success w-100" href="buy.php">Buy</a>
+					<a class="btn btn-outline-success w-100 mt-3" onclick="bitbuy(3); return false;" role="button">
+					Buy with 						<span class="account-upgrade-currency"><svg xmlns="http://www.w3.org/2000/svg" height="64" width="64" viewBox="0 0 64 64">
+<g transform="translate(0.00630876,-0.00301984)">
+<path fill="#f7931a" d="m63.033,39.744c-4.274,17.143-21.637,27.576-38.782,23.301-17.138-4.274-27.571-21.638-23.295-38.78,4.272-17.145,21.635-27.579,38.775-23.305,17.144,4.274,27.576,21.64,23.302,38.784z"/>
+<path fill="#FFF" d="m46.103,27.444c0.637-4.258-2.605-6.547-7.038-8.074l1.438-5.768-3.511-0.875-1.4,5.616c-0.923-0.23-1.871-0.447-2.813-0.662l1.41-5.653-3.509-0.875-1.439,5.766c-0.764-0.174-1.514-0.346-2.242-0.527l0.004-0.018-4.842-1.209-0.934,3.75s2.605,0.597,2.55,0.634c1.422,0.355,1.679,1.296,1.636,2.042l-1.638,6.571c0.098,0.025,0.225,0.061,0.365,0.117-0.117-0.029-0.242-0.061-0.371-0.092l-2.296,9.205c-0.174,0.432-0.615,1.08-1.609,0.834,0.035,0.051-2.552-0.637-2.552-0.637l-1.743,4.019,4.569,1.139c0.85,0.213,1.683,0.436,2.503,0.646l-1.453,5.834,3.507,0.875,1.439-5.772c0.958,0.26,1.888,0.5,2.798,0.726l-1.434,5.745,3.511,0.875,1.453-5.823c5.987,1.133,10.489,0.676,12.384-4.739,1.527-4.36-0.076-6.875-3.226-8.515,2.294-0.529,4.022-2.038,4.483-5.155zm-8.022,11.249c-1.085,4.36-8.426,2.003-10.806,1.412l1.928-7.729c2.38,0.594,10.012,1.77,8.878,6.317zm1.086-11.312c-0.99,3.966-7.1,1.951-9.082,1.457l1.748-7.01c1.982,0.494,8.365,1.416,7.334,5.553z"/>
+</g>
+</svg>
+</span>
+					</a>
+					<a class="btn btn-primary btn-success w-100" href="buy.php">
+						<i class="fas fa-money-check-alt"></i> Buy With Skrill
+					</a>
+	                <a class="btn btn-primary btn-success w-100" href="buy.php">
+						<i class="fas fa-netteller"></i> Buy with Neteller
+					</a>
+					<a class="btn btn-primary btn-success w-100" href="buy.php">
+						<i class="fab fa-paypal"></i> Buy with PayPal
+					</a>
+					
+				</div>
+			</div>
+			<div class="card ms-3 rounded-3 border shadow-sm p-0">
+				<div class="card-header fs-1 text-success">
+					%
+					<div class="fs-6 text-muted">
+						* Till 18 May					</div>
+				</div>
+				<div class="card-body">
+					
+					<div class="fs-1 mb-3">
+						$89
+					</div>
+					<div class="fs-4 mb-3">
+						6 months					</div>
+				</div>
+				<div class="card-footer p-3 bg-transparent border-0">
+					<a class="btn btn-primary btn-success w-100" href="buy.php">Buy</a>
+					<a class="btn btn-outline-success w-100 mt-3" onclick="bitbuy(6); return false;" role="button">
+						Buy with 						<span class="account-upgrade-currency"><svg xmlns="http://www.w3.org/2000/svg" height="64" width="64" viewBox="0 0 64 64">
+<g transform="translate(0.00630876,-0.00301984)">
+<path fill="#f7931a" d="m63.033,39.744c-4.274,17.143-21.637,27.576-38.782,23.301-17.138-4.274-27.571-21.638-23.295-38.78,4.272-17.145,21.635-27.579,38.775-23.305,17.144,4.274,27.576,21.64,23.302,38.784z"/>
+<path fill="#FFF" d="m46.103,27.444c0.637-4.258-2.605-6.547-7.038-8.074l1.438-5.768-3.511-0.875-1.4,5.616c-0.923-0.23-1.871-0.447-2.813-0.662l1.41-5.653-3.509-0.875-1.439,5.766c-0.764-0.174-1.514-0.346-2.242-0.527l0.004-0.018-4.842-1.209-0.934,3.75s2.605,0.597,2.55,0.634c1.422,0.355,1.679,1.296,1.636,2.042l-1.638,6.571c0.098,0.025,0.225,0.061,0.365,0.117-0.117-0.029-0.242-0.061-0.371-0.092l-2.296,9.205c-0.174,0.432-0.615,1.08-1.609,0.834,0.035,0.051-2.552-0.637-2.552-0.637l-1.743,4.019,4.569,1.139c0.85,0.213,1.683,0.436,2.503,0.646l-1.453,5.834,3.507,0.875,1.439-5.772c0.958,0.26,1.888,0.5,2.798,0.726l-1.434,5.745,3.511,0.875,1.453-5.823c5.987,1.133,10.489,0.676,12.384-4.739,1.527-4.36-0.076-6.875-3.226-8.515,2.294-0.529,4.022-2.038,4.483-5.155zm-8.022,11.249c-1.085,4.36-8.426,2.003-10.806,1.412l1.928-7.729c2.38,0.594,10.012,1.77,8.878,6.317zm1.086-11.312c-0.99,3.966-7.1,1.951-9.082,1.457l1.748-7.01c1.982,0.494,8.365,1.416,7.334,5.553z"/>
+</g>
+</svg>
+</span>
+					</a>
+					<a class="btn btn-primary btn-success w-100" href="buy.php">
+						<i class="fas fa-money-check-alt"></i> Buy With Skrill
+					</a>
+	                <a class="btn btn-primary btn-success w-100" href="buy.php">
+						<i class="fas fa-netteller"></i> Buy with Neteller
+					</a>
+					<a class="btn btn-primary btn-success w-100" href="buy.php">
+						<i class="fab fa-paypal"></i> Buy with PayPal
+					</a>
+				
+					
+
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</div>	</div>
+
+	<script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
